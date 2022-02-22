@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    height: 3vw;
+    padding-left: 30vw;
+    margin-top: 2vw;
+    
+}
+.navbar a{
+    padding-right: 2vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1w;
+    font-weight: bold;
+}
+a:hover{
+    color: rgba(252,185,0,1) ;
+    text-decoration: underline;
+}
+a:visited{
+    color: rgba(252,185,0,1) ;
+    text-decoration: underline;
+}
+
+
