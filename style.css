@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 .navbar{
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
-    height: 3vw;
-    padding-left: 30vw;
-    margin-top: 2vw;
+    padding-left: 40vw;
+    padding-top: 2vw;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1vw 2vw rgb(0,0,0,0.2);
+    height: 4vw;
+    background-color: #fbfbfb;
     
 }
 .navbar a{
@@ -21,9 +24,48 @@ a:hover{
     color: rgba(252,185,0,1) ;
     text-decoration: underline;
 }
-a:visited{
-    color: rgba(252,185,0,1) ;
-    text-decoration: underline;
+
+/* ............................................................................................................................... */
+
+.intro{
+    padding-top: 15vw;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #fbfbfb;
+    height: 140%;
+    /* padding-bottom: 20vw; */
+    color: #32333c;
+}
+.title button{
+height: 4vw;
+width: 12vw;
+margin-top: 3vw;
+color: white;
+background-color: #feb633;
+border: none;
+font-size: 1.5vw;
+
+}
+.intro h3{
+    font-size: 4vw;
+    font-weight: bold;
+
+    
+}
+.intro p{
+    font-size: 1.2vw;
+}
+.intro img{
+    width: 30%;
+    margin-top: -5vw;
+    margin-left: -5vw;
+    z-index: 1;
+    
+}
+.title{
+    margin-top: 10vw;
+    padding-left: 8vw;
 }
 
 
