@@ -31,9 +31,10 @@ a:hover{
     padding-top: 15vw;
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    background-color: #fbfbfb;
-    height: 140%;
+    justify-content: space-around; 
+    background: linear-gradient(90deg, #fbfbfb 60%, #fcb900 40%);
+      
+      
     /* padding-bottom: 20vw; */
     color: #32333c;
 }
@@ -45,6 +46,7 @@ color: white;
 background-color: #feb633;
 border: none;
 font-size: 1.5vw;
+margin-left: 5vw;
 
 }
 .intro h3{
@@ -59,7 +61,7 @@ font-size: 1.5vw;
 .intro img{
     width: 30%;
     margin-top: -5vw;
-    margin-left: -5vw;
+    margin-right: 20vw;
     z-index: 1;
     
 }
