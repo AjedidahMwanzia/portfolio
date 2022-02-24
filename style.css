@@ -10,7 +10,8 @@
     width: 100%;
     box-shadow: 0 1vw 2vw rgb(0,0,0,0.2);
     height: 4vw;
-    background-color: #fbfbfb;
+    background-color: white;
+    z-index: 2;
     
 }
 .navbar a{
@@ -25,49 +26,73 @@ a:hover{
     text-decoration: underline;
 }
 
-/* ............................................................................................................................... */
-
-.intro{
+.intro {
     padding-top: 15vw;
     display: flex;
     width: 100%;
     justify-content: space-around; 
-    background: linear-gradient(90deg, #fbfbfb 60%, #fcb900 40%);
-      
-      
-    /* padding-bottom: 20vw; */
+    background-color:#fbfbfb;
+  
     color: #32333c;
 }
-.title button{
-height: 4vw;
-width: 12vw;
-margin-top: 3vw;
-color: white;
-background-color: #feb633;
-border: none;
-font-size: 1.5vw;
-margin-left: 5vw;
+.title button {
+    height: 4vw;
+    width: 12vw;
+    margin-top: 3vw;
+    color: white;
+    background-color: #feb633;
+    border: none;
+    font-size: 1.5vw;
+    margin-left: 5vw;
 
 }
 .intro h3{
     font-size: 4vw;
     font-weight: bold;
-
-    
 }
 .intro p{
     font-size: 1.2vw;
 }
 .intro img{
     width: 30%;
-    margin-top: -5vw;
-    margin-right: 20vw;
+    margin-top: -7vw;
+    margin-right: 8vw;
     z-index: 1;
-    
+    margin-bottom: 3vw;
 }
 .title{
-    margin-top: 10vw;
+    margin-top: 5vw;
     padding-left: 8vw;
+    padding-bottom: 12vw;
+}
+/* ........................................................................................................................... */
+.about h1{
+    font-weight: bolder;
+    color:#32333c; 
+    padding-top: 5vw;
+}
+.about h1 span{
+    text-decoration: underline #feb633 ;
+
+}
+.about{
+   display: flex;
+   font-family: Verdana, sans-serif;
+   color: #32333c;
+   margin-top: 5vw;
+   margin-left: 20vw;
+   justify-content: space-around;
+   
+}
+.interests p{
+    padding-bottom: 1vw;
+}
+.interests h3{
+    padding-bottom: 1vw;
+    text-align: center;
+}
+.interests{
+
 }
 
 
