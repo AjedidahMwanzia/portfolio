@@ -4,7 +4,7 @@
 ##### By Ajedidah Mwanzia 
 
 ### It is an individual portforlio.
-<img src="https://github.com/AjedidahMwanzia/portfolio/blob/master/images/about%20.png">
+<img src="https://github.com/AjedidahMwanzia/portfolio/blob/master/images/about.png">
 
 
 ## Table of Content
