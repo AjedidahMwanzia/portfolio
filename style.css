@@ -211,4 +211,9 @@ a:hover{
     padding-right: 14vw;
     margin-left: 5vw;
 }
-    
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 5vw;
+    padding-top: 2vw;
+}
