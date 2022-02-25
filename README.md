@@ -3,7 +3,7 @@
 
 ##### By Ajedidah Mwanzia 
 ### It is an individual portforlio.
-<img src="/images/about.png">
+<img src="https://github.com/AjedidahMwanzia/portfolio/blob/master/images/about%20.png">
 
 ## Table of Content
 
