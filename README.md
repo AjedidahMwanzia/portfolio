@@ -29,7 +29,11 @@
 * An access to the Internet
 
 ### Installation Process
-Here is the live link .Enjoy! 
+Here is the live link .Enjoy! https://ajedidahmwanzia.github.io/portfolio/
+* At the right side my of my repo click fork to fork the portfolio website
+* At the code section clone the link and paste it on your pc
+* open the code using vs code or your preferred editor 
+* Run the code using the live server and enjoy.
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
