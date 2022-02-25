@@ -2,13 +2,10 @@
 
 
 ##### By Ajedidah Mwanzia 
-<<<<<<< HEAD
+
 ### It is an individual portforlio.
 <img src="https://github.com/AjedidahMwanzia/portfolio/blob/master/images/about%20.png">
-=======
-### It is an individual portfolio.
-<img src="../images/about.png">
->>>>>>> 76708fc80ecdfdab7c54ab138374434aa876f2cd
+
 
 ## Table of Content
 
