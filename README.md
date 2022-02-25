@@ -3,7 +3,7 @@
 
 ##### By Ajedidah Mwanzia 
 ### It is an individual portforlio.
-/images/about.png
+<img src="images/about.png">
 
 ## Table of Content
 
