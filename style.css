@@ -31,7 +31,7 @@ a:hover{
     display: flex;
     width: 100%;
     justify-content: space-around; 
-    background-color:#fbfbfb;
+    background:linear-gradient(135deg, #fbfbfb 60%, #fbd214 40% );
   
     color: #32333c;
 }
@@ -40,7 +40,7 @@ a:hover{
     width: 12vw;
     margin-top: 3vw;
     color: white;
-    background-color: #feb633;
+    background-color: #fbd214;
     border: none;
     font-size: 1.5vw;
     margin-left: 5vw;
@@ -56,7 +56,7 @@ a:hover{
 .intro img{
     width: 30%;
     margin-top: -7vw;
-    margin-right: 8vw;
+    margin-right: 3vw;
     z-index: 1;
     margin-bottom: 3vw;
 }
@@ -72,27 +72,60 @@ a:hover{
     padding-top: 5vw;
 }
 .about h1 span{
-    text-decoration: underline #feb633 ;
+    text-decoration: underline #fbd214;
 
 }
 .about{
    display: flex;
    font-family: Verdana, sans-serif;
    color: #32333c;
-   margin-top: 5vw;
-   margin-left: 20vw;
+   margin-top: 10vw;
+   margin-left: vw;
    justify-content: space-around;
+   margin-bottom: 5vw;
    
 }
 .interests p{
     padding-bottom: 1vw;
 }
-.interests h3{
-    padding-bottom: 1vw;
+.experience{
+    background-color: #fbfbfb; 
+
+}
+.experience h2{
+    color: #32333c; 
     text-align: center;
+    padding-top: 5vw;
+    font-size: 2vw;
+    font-weight: bolder;
+    text-decoration: underline #fbd214;
+   
 }
-.interests{
+.story{
+    display:flex;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+    flex-direction: row;
+}
+.container{
+    border: 0.1vw solid #fbd214;
+    word-wrap: wrap;
+    width: 1000%;
+    margin-bottom: 2vw;
+    padding: 2vw;
+    background-color: white;
+    color: #32333c;
+    margin: 2vw;
 
 }
+.container h3{
+    padding-bottom: 1vw;
+}
 
-
+/* .............................................................................................................. */
+.contact{
+    width: 100%;
+    background-color: #fbd214;
+    height: 20vw;
+    color: #32333c;
+}
