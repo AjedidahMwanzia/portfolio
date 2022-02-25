@@ -3,6 +3,9 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    font-family: Verdana, sans-serif;
+}
 .navbar{
     padding-left: 40vw;
     padding-top: 2vw;
@@ -32,7 +35,6 @@ a:hover{
     width: 100%;
     justify-content: space-around; 
     background:linear-gradient(135deg, #fbfbfb 60%, #fbd214 40% );
-  
     color: #32333c;
 }
 .title button {
@@ -77,12 +79,12 @@ a:hover{
 }
 .about{
    display: flex;
-   font-family: Verdana, sans-serif;
    color: #32333c;
    margin-top: 10vw;
-   margin-left: vw;
+   margin-left: 10vw;
    justify-content: space-around;
    margin-bottom: 5vw;
+   width: 80%;
    
 }
 .interests p{
@@ -90,6 +92,8 @@ a:hover{
 }
 .experience{
     background-color: #fbfbfb; 
+    width: 80%;
+    margin-left: 10vw;
 
 }
 .experience h2{
@@ -106,14 +110,15 @@ a:hover{
     padding-top: 5vw;
     padding-bottom: 10vw;
     flex-direction: row;
+    
 }
 .container{
     border: 0.1vw solid #fbd214;
     word-wrap: wrap;
-    width: 1000%;
+    width: 80%;
     margin-bottom: 2vw;
     padding: 2vw;
-    background-color: white;
+    /* background-color: white; */
     color: #32333c;
     margin: 2vw;
 
@@ -124,8 +129,86 @@ a:hover{
 
 /* .............................................................................................................. */
 .contact{
-    width: 100%;
+    width: 80%;
     background-color: #fbd214;
     height: 20vw;
     color: #32333c;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7vw;
+    margin-left: 10vw;
 }
+.contact h2{
+    color: white;
+    font-size: 3vw;
+}
+.contact button{
+    color: #fbd214;
+    font-weight:bold ;
+    width: 10vw;
+    height: 3vw;
+    background-color: white;
+    border: none;
+    font-size: 1.5vw;
+}
+
+.contact span {
+    font-size: 5vw;
+}
+/* ................................................................................................................. */
+.images img{
+    border-radius: 3vw;
+    width: 40%;
+    height: 20vw;
+    padding: 1vw;
+}
+.others{
+    color: #32333c;
+    padding-left:5vw ;
+    display: flex;
+}
+.portfolio{
+    margin-top: 5vw;
+    background-color: #fbfbfb;
+}
+.portfolio h2{
+    padding: 5vw;
+    text-align: center;
+    font-size: 3vw;
+}
+.burger{
+    padding-top: 5vw;
+}
+.burger h3{
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+}
+.insurance{
+    padding-bottom: 10vw;
+    padding-top: 5vw;
+    /* justify-content: space-around; */
+    color: #32333c;
+    padding-left:5vw ;
+    display: flex;
+
+}
+.photos img{
+    border-radius: 3vw;
+    width: 40%;
+    height: 20vw;
+    padding: 1vw;
+
+}
+.website h3{
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+}
+/* .photos{
+    margin-left: 5vw;
+} */
+.website{
+    padding-top: 5vw;
+    padding-right: 14vw;
+    margin-left: 5vw;
+}
+    
